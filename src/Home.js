@@ -19,13 +19,13 @@ export default class Home extends Component {
                   <CardBody>
                     <Row style={{ textAlign: "center" }} className="pt-5">
                       <Col>
-                        <Button tag={Link} color="info" to="get">
+                        <Button tag={Link} color="info" to="/get">
                           Get
                         </Button>
                         <Button
                           className="ml-3 "
                           tag={Link}
-                          to="post"
+                          to="/post"
                           color="warning"
                         >
                           Post
